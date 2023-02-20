@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    
+    <!--------------------Main start --------------------->
+    <div class="main">
+    
+      <div class="video-bg">
+        <video width="320" height="240" autoplay loop muted>
+          <source src="img/video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    
+      <!--------------------Header Start --------------------->
+      <div class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggler">
+              <span></span>
+            </button>
+            <div class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li><a href="#portfolio" class="nav-item link-item">Portfolio</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--------------------Header end --------------------->
+
+      <!--------------------Home start --------------------->
+      <section class="home-section aling-items-center active" id="home">
+        <div class="container">
+          <div class="row aling-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>William Folle</h1>
+              <h2>frontend Web Developer</h2>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/will2.png" alt="profile-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </secction>
+
+    </div>
+    
+    <!--------------------About start --------------------->
+    <section class="about-section sec-padding" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>About me</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-img">
+            <div class="img-box">
+              <img src="img/will2.png" alt="about-img">
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              Hello, I'm William, I've been a front-end programmer
+              and designer for a few years, and I've worked with various
+              clients from different locations, both as a freelancer and 
+              with my company, Deer Fast. I've worked with a wide range of
+              technologies, both in code and graphic platforms. 
+              I'm passionate about programming and design, and have 
+              pursued these two arts as hobbies for over 10 years, 
+              which later turned into my profession.
+            </p>
+            <h3>skills</h3>
+
+            <div class="skills">
+              <div class="skills-item">Html</div>
+              <div class="skills-item">Css</div>              
+              <div class="skills-item">Javascript</div>
+              <div class="skills-item">Bootstrap</div>
+              <div class="skills-item">UX/UI</div>
+              <div class="skills-item">Sass</div>
+              <div class="skills-item">Figma</div>
+              <div class="skills-item">Adobe Xd</div>
+              <div class="skills-item">Photoshop</div>
+              <div class="skills-item">Ilustrator</div>
+              <div class="skills-item">Wordpress</div>
+              <div class="skills-item">Elementor</div>
+    
+              
+            </div>
+            <h3>in progress</h3>
+
+            <div class="skills">
+              <div class="skills-item">TypeScript</div>
+              <div class="skills-item">Next.js</div>
+              <div class="skills-item">React.js</div>
+            </div>
+
+            <div class="about-tabs">
+              <button type="button" class="tab-item active" data-target="#experience">experience</button>
+              <button type="button" class="tab-item" data-target="#education">education</button>             
+            </div>
+
+            <!--------------------Experience  start --------------------->
+            <div class="tab-content active" id="experience">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2015 - 2016</span>
+                  <h4>Office Administrator - <span>zullian</span></h4>
+                  <p>
+                    I was in charge of employee payroll, pay bills
+                    months of the store, debits, withdrawals and all management
+                    of company expenses
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2013 - 2016</span>
+                  <h4>Front-end web Developer- <span>Environmental laboratory</span></h4>
+                  <p>
+                    I worked together with the other members of the group of
+                    creating simple games in javascript, I was busy
+                    mainly of design.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2018 - 2019</span>
+                  <h4>Help Desk - <span>itajai municipality</span></h4>
+                  <p>
+                    I was in charge of the computers, the network, maintenance of the IT equipment in the town hall and offices
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2019 - 2023</span>
+                  <h4>Front-end web Developer - <span>Deer fast</span></h4>
+                  <p>          
+                    At deerfast we deal with websites, landing pages and systems
+                    real estate. we use different technologies such as html5, CSS,
+                    Javascript, wordpress. in addition we also work with facebook
+                    ads to bring the best possible result to our clients
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-content" id="education">
+              <div class="timeline">
+                <div class="timeline-item">
+                  <span class="date">2011 - 2014</span>
+                  <h4>high school - <span>Tommaso Catullo</span></h4>
+                  <p>
+                    Institute of Higher Education
+                    Tommaso Catullo Middle School
+                    Superior, professional address
+                    health services e
+                    social assistance.
+                  </p>
+                </div>
+                <div class="timeline-item">
+                  <span class="date">2019 - 2024</span>
+                  <h4>bachelor of technology - <span>Univali Itajai</span></h4>
+                  <p>
+                    University do Vale do Itajaí
+                    bachelor's degree, Systems for the Internet
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--------------------Experience end --------------------->
+            <a class="btn" target="_blank" href="download/Currículum.pdf" download>Dowload CV</a>
+            <a href="https://www.linkedin.com/in/williamfolle/" class="btn">Contact me</a>
+
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--------------------About end --------------------->
+    
+    <!--------------------portifolio start --------------------->
+    <section class="portfolio-section sec-padding" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>recent work</h2>
+          </div>
+        </div>
+        <div class="row">
+          <!-------- portfolio itens star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt1.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Capture page for a real estate agency
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a static website developed for capturing clients for a real 
+                  estate agency that was launching a new building. It's a simple website 
+                  but brought great results for the hiring company.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>15 ago 2022</span></li>
+                  <li>technologies used  -  <span>WordPress Elementor</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://piazzazilli.vivencieitapema.com" target="_blank">https://piazzazilli.vivencieitapema.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------- portfolio itens end--------- -->
+
+          <!-------- portfolio itens 2 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt2.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Electronic product page
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a static website developed for testing and training purposes 
+                  in creating responsive and beautiful layouts using HTML, CSS, and 
+                  JavaScript without the use of frameworks or libraries.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>15 feb 2023</span></li>
+                  <li>technologies used  -  <span>Html Css Javascript</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://williamfolle.github.io/Logitech/" target="_blank">https://williamfolle.github.io/Logitech/</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------- portfolio itens 2 end--------- -->
+          <!-------- portfolio itens 3 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt3.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Communication company website
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a website developed for a communication company that sells its storytelling 
+                  courses in various countries and works with several Brazilian companies, 
+                  being a great reference in the market.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>10 Apr 2021</span></li>
+                  <li>technologies used  -  <span>WordPress Elementor</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://narrativavisual.com.br" target="_blank">https://narrativavisual.com.br</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------- portfolio itens 3 end--------- -->
+          <!-------- portfolio itens 4 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt4.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Transport company website
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a website developed for a company that manages documents 
+                  and permissions for the transportation of products on trucks 
+                  throughout Brazil. The website was used to initiate contact between 
+                  the company and clients.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>15 Ago 2022</span></li>
+                  <li>technologies used  -  <span>WordPress Elementor</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://portaldorntrc.com.br" target="_blank">https://portaldorntrc.com.br</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------- portfolio itens 4 end--------- -->
+          <!-------- portfolio itens 5 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt5.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Real estate management system
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a website with a system that allows the real estate agency
+                  to register its new properties for sale, rent, or visits. The system
+                  was created using WordPress and Elementor, and several websites of
+                  this type were created for different real estate agencies.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>5 set 2022</span></li>
+                  <li>technologies used  -  <span>WordPress Elementor</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://gusttavodecampos.com" target="_blank">https://gusttavodecampos.com</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-------- portfolio itens 5 end--------- -->
+          <!-------- portfolio itens 6 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt6.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+              Equestrian company website
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  It was a website developed for the sale of courses, both in-person and 
+                  online, on horse care and different riding techniques. The company is 
+                  a major player in the region and operates throughout Brazil with various 
+                  courses, lectures, and projects.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>10 dec 2022</span></li>
+                  <li>technologies used  -  <span>WordPress Elementor</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://uccavalo.com.br" target="_blank">https://uccavalo.com.br</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <!-------- portfolio itens 7 star--------- -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/pt7.jpeg" alt="portfolio-item-thumb">
+              </div>
+              <h3 class="portfolio-item-title">
+                landing page study project
+              </h3>
+              <button type="button" class="btn view-project-btn">View project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    landing page created for the purpose of non-profit 
+                    programming and design studies or any business purpose.
+
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created  -  <span>6 feb 2023</span></li>
+                    <li>technologies used  -  <span>Html Css Javascript</span></li>
+                    <li>Role  -  <span>Frontend</span></li>
+                    <li>view Online - <span><a href="https://williamfolle.github.io/lpdesign/" target="_blank">https://williamfolle.github.io/lpdesign/</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+              <!-------- portfolio itens 8 star--------- -->
+          <div class="portfolio-item">
+            <div class="portfolio-item-thumbnail">
+              <img src="img/pt8.jpeg" alt="portfolio-item-thumb">
+            </div>
+            <h3 class="portfolio-item-title">
+                video landing page study project
+            </h3>
+            <button type="button" class="btn view-project-btn">View project</button>
+            <div class="portfolio-item-details">
+              <div class="description">
+                <p>
+                  landing page created for the purpose of non-profit 
+                    programming and design studies or any business purpose.
+                </p>
+              </div>
+              <div class="general-info">
+                <ul>
+                  <li>Created  -  <span>8 feb 2023</span></li>
+                  <li>technologies used  -  <span>Html Css</span></li>
+                  <li>Role  -  <span>Frontend</span></li>
+                  <li>view Online - <span><a href="https://williamfolle.github.io/lpvideo/" target="_blank">https://williamfolle.github.io/lpvideo/</a></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <!-------- portfolio itens 9 star--------- -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/pt9.jpeg" alt="portfolio-item-thumb">
+              </div>
+              <h3 class="portfolio-item-title">
+                study project template
+              </h3>
+              <button type="button" class="btn view-project-btn">View project</button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    template created for the purpose of non-profit 
+                    programming and design studies or any business purpose.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Created  -  <span>10 feb 2023</span></li>
+                    <li>technologies used  -  <span>Html Css Javascript</span></li>
+                    <li>Role  -  <span>Frontend</span></li>
+                    <li>view Online - <span><a href="https://williamfolle.github.io/lpdashbord/" target="_blank">https://williamfolle.github.io/lpdashbord/</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+ 
+    <!---------------------------portfolio section end---------------------- -->
+
+     <!-------- contacts area start--------- -->
+      <!-------- contacts area end--------- -->
+    
+    <!---------------------------portfolio item details popup star---------------------- -->
+    
+    <div  class="portfolio-popup"> 
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="pp-tumbnail">
+              <img src="img/3.jpg" alt="pp-thumbnail">
+            </div>
+            <h3></h3>
+          </div>
+          <div class="pp-body">
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <!---------------------------portfolio item details popup end---------------------- -->
+   
+   
+   
+   
+   
+   
+   
+   
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
+
+ <!-- parei no tempo 1:53:41 do video  -->
+ <!-- https://www.youtube.com/watch?v=hf3Ncq3UX6c&list=PLJAFEg3vkcQOsIqI5mzirso0lkbnGlaAu -->
